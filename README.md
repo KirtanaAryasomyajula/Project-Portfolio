@@ -1,128 +1,14 @@
 1)  Medical Insurance Cost Analysis (Python-Linear Regression)
 
-This project analyzes the Medical Insurance Cost Dataset with the aim to explore how variables like age, gender, BMI, smoking habits, number of children, and region affect medical charges. It includes data cleaning, visualization, transformation, and possibly predictive modeling.
-
-Initial Exploration
-
-• Dataset loaded using pandas and has 1338 records.
-
-• No missing values.
-
-• Removed duplicate entries to ensure data integrity.
-
-Univariate Analysis:
-
-Categorical Variables:
-
-sex, smoker, region, children were analyzed using pie and bar plots.
-Most individuals are non-smokers.
-Gender is nearly balanced.
-Southeast region has the highest representation.
-Numerical Variables:
-
-age, bmi, and charges distributions examined using histograms and box plots
-Charges were right-skewed, hence log-transformed for normalization.
-BMI outliers were handled using IQR-based filtering.
-Bivariate Analysis
-
-Smokers vs Non-Smokers:
-
-Smokers pay significantly more in charges.
-Smoking status shows a strong influence on medical cost.
-Age vs Charges:
-
-Charges increase with age.
-Visualized using scatter plots colored by intensity of charges.
-BMI Analysis:
-
-Higher BMI correlates with higher charges, especially among smokers.
-Age and BMI were also studied together.
-Region & Gender:
-
-Some demographic trends seen, but not as influential on charges.
-Transformations and Feature Engineering
-
-• Encoding categorical variables:sex,smoker and region using Label Encoding.
-
-• Log transformation applied to charges to handle skewness.
-
-• BMI outliers removed using IQR filtering.
-
-• Data visualizations updated post-cleaning for better accuracy.
-
-Modeling
-
-• Splitting into train and test datasets.
-
-• Regression modeling (Linear Regression)
-
-• Accuracy Score (80%) and Evaluation metrics: MSE
-
-Interpretation
-
-Smoker: Smokers pay drastically more, health risk indicator.
-Age: Older individuals incur more charges.
-BMI: High BMI(especially for smokers) linked to more cost due to potential health issues.
-Children: No strong link found with medical cost.
-Region: Region does not significantly affect cost.
-Sex:Gender doesn't heavily impact charges.
-
-2)  DRUG TYPE CLASSIFICATION
+This project focused on predicting individual medical insurance costs based on personal attributes such as age, BMI, smoking status, and region. I cleaned and transformed the data using encoding techniques for categorical features and applied scaling to numerical variables. Exploratory data analysis revealed that smoking status and BMI had strong correlations with insurance charges. I built and evaluated several regression models, with Linear Regression and Random Forest Regressor delivering high accuracy in predicting costs. The project emphasized practical feature engineering and regression evaluation metrics (R², MAE, RMSE) to inform cost estimation strategies for healthcare providers and insurers.
 
 
-The aim of the project is to  classify which type of drug should be prescribed to a patient based on various medical features such as age, sex, blood pressure (BP), cholesterol level, and sodium-to-potassium ratio (Na_to_K).
+2)  Drug type Classification using Logistic Regression
 
-2. Data Understanding:
-•	Dataset: drug200.csv with 200 records.
-•	Features:
-o	Age: Numeric
-o	Sex: Categorical
-o	BP (Blood Pressure): Categorical (Low/Normal/High)
-o	Cholesterol: Categorical (Normal/High)
-o	Na_to_K (Sodium to Potassium ratio): Numeric
-o	Drug: Target variable (categorical with 5 drug classes)
-
-3. Exploratory Data Analysis (EDA):
-•	Visualizations:
-o	Count plots to show the distribution of drug types across sex, BP, and cholesterol.
-o	Scatter plots to analyze how features like Age and Na_to_K vary with Drug.
-o	Pie charts to show the proportion of different categories.
-•	Outlier Detection:
-o	Na_to_K variable was examined using box plots and filtered using the IQR method to remove outliers.
-
-4. Data Preprocessing:
-•	Encoding:
-o	Label Encoding for Sex, BP, and Cholesterol.
-•	Feature Scaling:
-o	Standardization applied to all numerical features using StandardScaler.
-•	Target-Feature Split:
-o	Target: Drug
-o	Features: Remaining columns after encoding and scaling.
-
-5. Modeling:
-•	Algorithms Used:
-o	Logistic Regression
-o	Decision Tree Classifier
-•	Evaluation:
-o	Models were evaluated using accuracy and confusion matrix.
-o	The Decision Tree model likely provided better performance on this multiclass classification task due to its handling of categorical splits.
-
-6. Conclusion:
-   
-•	The project successfully demonstrated the application of classification algorithms to a real-world medical dataset.
-
-•	With proper data preprocessing and feature engineering, both Logistic Regression and Decision Tree models could predict drug types with reasonable accuracy.
-
-•	This pipeline can serve as a foundation for more advanced modeling or for deployment in healthcare-related decision support systems.
-
-   
+In this classification project, I developed a machine learning model to predict the type of drug prescribed to a patient based on medical indicators such as age, blood pressure, cholesterol levels, and sodium/potassium concentrations. After preprocessing the data (including label encoding and standardization), I explored feature relationships through visualizations and correlation heatmaps. I trained and compared multiple classifiers including Decision Tree, K-Nearest Neighbors, and Logistic Regression. The Decision Tree Classifier achieved strong performance with high interpretability, allowing clear insight into how physiological factors influence drug type selection. This project highlights the intersection of healthcare and data science for improving prescription decisions.
 
 
 
+3) Employee Evaluation For Promotion-Employee Promotion Prediction Using ML 
 
-
-
-
-
-
-
+In this project, I developed a machine learning model to predict employee promotions using structured employee data. The dataset included attributes such as education level, department, training scores, previous year ratings, and award recognition. I performed comprehensive pre processing including handling missing values, encoding categorical variables, and applying robust scaling to manage outliers. Through exploratory data analysis, I identified key features influencing promotion decisions. Among the models tested, Logistic Regression achieved the highest accuracy of 91%, outperforming a Decision Tree classifier (86%). The project demonstrated not only strong predictive performance but also interpretability and practical insights into HR decision-making.
