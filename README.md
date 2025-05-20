@@ -18,6 +18,24 @@ In this project, I developed a machine learning model to predict employee promot
 
 In this project, I developed a machine learning model to predict price of mobile phone  based on medical indicators such as sales ,weight, resolution, internal memory and ram, battery and others. After pre processing the data I explored feature relationships through visualizations like pie charts, histplot, scatterplots and correlation heat maps. I trained and compared two models -Linear Regression and Random Forest Regressor. The Random Forest Regressor  performed well  compared to linear regression, allowing clear insight into how physiological factors influence drug type selection. This project highlights the prediction of mobile price ,through a small dataset,  which can be applied to a larger data for real time decision making.
 
+5) E-Commerce Customer Churn Prediction
+
+   In this classification project, I developed a machine learning model to predict the chances of churn of customers for an e-commerce platform based on churn indicators such as satisfaction score, complains, warehouse to home distance, marital status ,etc.After pre processing the data (including label encoding and feature scaling), I explored feature relationships through visualizations like countplots, pie charts,histplots and correlation heatmaps. I trained and compared two classifiers including Decision Tree and Logistic Regression. The Decision Tree Classifier achieved strong performance with high interpretability, allowing clear insight into how  factors  like complains and ratings influence  customer churn . This project highlights the intersection of e-commerce and data science for improving the e-commerce platform  service towards customers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
