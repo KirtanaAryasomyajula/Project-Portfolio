@@ -12,3 +12,17 @@ In this classification project, I developed a machine learning model to predict 
 3) Employee Evaluation For Promotion-Employee Promotion Prediction Using ML 
 
 In this project, I developed a machine learning model to predict employee promotions using structured employee data. The dataset included attributes such as education level, department, training scores, previous year ratings, and award recognition. I performed comprehensive pre processing including handling missing values, encoding categorical variables, and applying robust scaling to manage outliers. Through exploratory data analysis, I identified key features influencing promotion decisions. Among the models tested, Logistic Regression achieved the highest accuracy of 91%, outperforming a Decision Tree classifier (86%). The project demonstrated not only strong predictive performance but also interpretability and practical insights into HR decision-making.
+
+
+4) Mobile Price Prediction Using Linear Regression and Random Forest Regressor
+
+In this project, I developed a machine learning model to predict price of mobile phone  based on medical indicators such as sales ,weight, resolution, internal memory and ram, battery and others. After pre processing the data I explored feature relationships through visualizations like pie charts, histplot, scatterplots and correlation heat maps. I trained and compared two models -Linear Regression and Random Forest Regressor. The Random Forest Regressor  performed well  compared to linear regression, allowing clear insight into how physiological factors influence drug type selection. This project highlights the prediction of mobile price ,through a small dataset,  which can be applied to a larger data for real time decision making.
+
+
+
+
+
+
+
+
+
