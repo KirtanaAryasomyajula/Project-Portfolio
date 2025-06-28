@@ -27,6 +27,14 @@ In this project, I developed a machine learning model to predict price of mobile
 
    In this project, I developed a machine learning model to predict the compressive strength of concrete based on material composition and curing time. The dataset included features such as cement, water, blast furnace slag, fly ash, aggregates, superplasticizer, and age. I performed thorough preprocessing steps including correlation analysis, feature scaling , and feature importance evaluation. Exploratory Data Analysis (EDA) helped uncover key relationships between features and strength. Among various models tested, the Random Forest Regressor achieved the highest performance with an R² score of 0.89, clearly identifying Age, Cement, and Water as critical inputs. The project demonstrates the potential of ML to improve quality control in the construction industry by accurately estimating concrete strength based on its composition.
 
+7) Civil Engineering Project Engineer Evaluation |  Classification
+
+   In this project, I built machine learning models to classify civil engineers as high-performing or needing improvement, based on a dataset from GlobalInfra Corp containing over 1 million project records. The dataset included engineer- and project-level features such as certificates, years of experience, salary bracket, overtime hours, project cost, proximity, and safety risk score.
+
+I began with extensive data cleaning and preprocessing, followed by Exploratory Data Analysis (EDA) to reveal feature relationships and detect multicollinearity. Correlation analysis highlighted dependencies between project cost, experience, and certifications. Feature engineering  techniques were applied to handle categorical data and prepare it for modeling.
+
+Various classification models were tested, including Logistic Regression and Random Forest. The Logistic Regression model  delivered the most reliable results, identifying key drivers of engineer performance such as Salary Bracket, Years of Experience, and PCAB Score. This project underscores the potential of ML in human resource and operational decision-making in the civil engineering domain.
+
 
 
 
