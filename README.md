@@ -23,6 +23,13 @@ In this project, I developed a machine learning model to predict price of mobile
    In this classification project, I developed a machine learning model to predict the chances of churn of customers for an e-commerce platform based on churn indicators such as satisfaction score, complains, warehouse to home distance, marital status ,etc.After pre processing the data (including label encoding and feature scaling), I explored feature relationships through visualizations like countplots, pie charts,histplots and correlation heatmaps. I trained and compared two classifiers including Decision Tree and Logistic Regression. The Decision Tree Classifier achieved strong performance with high interpretability, allowing clear insight into how  factors  like complains and ratings influence  customer churn . This project highlights the intersection of e-commerce and data science for improving the e-commerce platform  service towards customers.
 
 
+6) Concrete Strength Prediction based on Composition of various materials   |   Regression and RandomForest
+
+   In this project, I developed a machine learning model to predict the compressive strength of concrete based on material composition and curing time. The dataset included features such as cement, water, blast furnace slag, fly ash, aggregates, superplasticizer, and age. I performed thorough preprocessing steps including correlation analysis, feature scaling , and feature importance evaluation. Exploratory Data Analysis (EDA) helped uncover key relationships between features and strength. Among various models tested, the Random Forest Regressor achieved the highest performance with an R² score of 0.89, clearly identifying Age, Cement, and Water as critical inputs. The project demonstrates the potential of ML to improve quality control in the construction industry by accurately estimating concrete strength based on its composition.
+
+
+
+
 
 
 
