@@ -1,4 +1,4 @@
-1)  Medical Insurance Cost Analysis (Python-Linear Regression)    |  Regression 
+1)  Medical Insurance Cost Analysis (Python-Linear Regression, Random Forest Regressor)    |  Regression 
 
 This project focused on predicting individual medical insurance costs based on personal attributes such as age, BMI, smoking status, and region. I cleaned and transformed the data using encoding techniques for categorical features and applied scaling to numerical variables. Exploratory data analysis revealed that smoking status and BMI had strong correlations with insurance charges. I built and evaluated several regression models, with Linear Regression and Random Forest Regressor delivering high accuracy in predicting costs. The project emphasized practical feature engineering and regression evaluation metrics (R², MAE, RMSE) to inform cost estimation strategies for healthcare providers and insurers.
 
